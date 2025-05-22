@@ -27,14 +27,6 @@ This project implements a blockchain-based **Loyalty Points System** using Solid
 - Node.js
 - Hardhat or Remix IDE
 
-### Deploy (Sample Script)
-```js
-const LoyaltyPoints = await ethers.getContractFactory("LoyaltyPoints");
-const lp = await LoyaltyPoints.deploy();
-await lp.deployed();
-console.log("Contract deployed to:", lp.address);
-```
-
 ## ✅ License
 This project is licensed under the MIT License.
 
